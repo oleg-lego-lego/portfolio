@@ -6,10 +6,10 @@ export const Navigation = () => {
         <nav>
             <h3 className={"logo"}>oleg.developer</h3>
             <ul>
-                <NavLink link={"src/components/navigation/Navigation#home"} title={'Home'}/>
-                <NavLink link={"src/components/navigation/Navigation#about"} title={'About'}/>
-                <NavLink link={"src/components/navigation/Navigation#projects"} title={'Projects'}/>
-                <NavLink link={"src/components/navigation/Navigation#projects"} title={'Contact'}/>
+                <NavLink link={"#home"} title={'Home'}/>
+                <NavLink link={"#about"} title={'About'}/>
+                <NavLink link={"#projects"} title={'Projects'}/>
+                <NavLink link={"#contact"} title={'Contact'}/>
             </ul>
         </nav>
     );
