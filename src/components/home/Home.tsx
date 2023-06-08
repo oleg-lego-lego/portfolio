@@ -22,29 +22,12 @@ export const Home = () => {
                                 Hi, I'm oleg ostrovski. A passionate Front-end React Developer based in Minsk, Belarus.
                                 📍
                             </p>
-                        {/*    <span>*/}
-                        {/*        <a aria-label="linkedin" rel="noreferrer" target="_blank"*/}
-                        {/*           href="https://www.linkedin.com/in/oleg-ostrovski-10658024a/">*/}
-                        {/*            <i className="fa-brands fa-linkedin"></i>*/}
-                        {/*        </a>*/}
-                        {/*        <a aria-label="github" rel="noreferrer" target="_blank"*/}
-                        {/*           href="https://github.com/oleg-lego-lego">*/}
-                        {/*            <i className="fa-brands fa-github"></i>*/}
-                        {/*        </a>*/}
-                        {/*</span>*/}
-
-                            <span><a aria-label="linkedin" rel="noreferrer" target="_blank"
-                                     href="https://www.linkedin.com/in/stefan-topalovic-dev/"><i
-                                className="fa-brands fa-linkedin"></i></a><a aria-label="github" rel="noreferrer"
-                                                                             target="_blank"
-                                                                             href="https://github.com/stefvndev"><i
-                                className="fa-brands fa-github"></i></a></span>
                         </div>
                         <div className="hero-img"></div>
                     </div>
                     <div className="skills">
                         <p>Tech Stack</p>
-                        <div className="logos">
+                        <div>
                             <ul>
                                 <Icon icon={html} title={'html'} description={'html-icon'}/>
                                 <Icon icon={css} title={'CSS3'} description={'skill-icon'}/>
