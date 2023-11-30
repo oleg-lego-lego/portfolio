@@ -1,5 +1,7 @@
 import React from 'react';
-import {SneakerStore} from "./sneakerStore/SneakerStore";
+import {MyProject} from "./MyProject";
+import {projects} from "./projectArr";
+
 
 export const Projects = () => {
     return (
@@ -10,7 +12,11 @@ export const Projects = () => {
                     <h3>my projects</h3>
                 </div>
                 <div className="projects-grid">
-                    <SneakerStore/>
+                    {projects.map((el, i) => {
+                        return (
+                            <MyProject project={el} key={i}/>
+                        )
+                    })}
                 </div>
             </div>
         </section>
