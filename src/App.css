@@ -964,4 +964,19 @@ footer h3 {
 }
 
 
+.hover-block {
+    overflow: hidden;
+}
+
+.image-hover-effect {
+    transform: translateY(0%);
+    transition: transform 4s ease-in-out;
+}
+
+.image-hover-effect:hover {
+    transform: translateY(-83%);
+    transition: transform 8s ease-in-out;
+
+}
+
 
