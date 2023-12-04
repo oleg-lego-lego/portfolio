@@ -5,7 +5,7 @@ import {projects} from "./projectArr";
 
 export const Projects = () => {
     return (
-        <section id={"projects"} className={"projects"}>
+        <section id={"projects"} className={"project"}>
             <div className="container">
                 <div className="project-content">
                     <p>portfolio</p>
