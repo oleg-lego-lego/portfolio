@@ -6,16 +6,16 @@ import js from '../../images/icons/js.svg'
 import react from '../../images/icons/react.svg'
 import scss from '../../images/icons/scss.svg'
 import TypeScript from '../../images/icons/TypeScript.png'
-import gitHub from '../../images/icons/img_1.png'
+import gitHub from '../../images/icons/gitHub.png'
 import {Icon} from "./Icon";
 
 export const Home = () => {
     return (
-        <section id={"home"} className={"hero"}>
-            <div className={"container"}>
-                <div className={"content"}>
-                    <div className={"hero-main"}>
-                        <div className={"hero-text"}>
+        <section id={"home"} className="hero">
+            <div className="container">
+                <div className="content">
+                    <div className="hero-main">
+                        <div className="hero-text">
                             <h1>Front-End React Developer</h1>
                             <img src={Hand} alt="hand"/>
                             <p>

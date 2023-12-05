@@ -6,17 +6,19 @@ export const Footer = () => {
     return (
         <footer>
             <div className="container">
-                <div className={'footer__container'}>
-                    <div className={'footer__link'}>
-                        <a target="_blank" rel="noreferrer"
-                           href="https://www.linkedin.com/in/oleg-ostrovski-10658024a/"
+                <div className="footer__container">
+                    <div className="footer__link">
+                        <a target="_blank"
+                           rel="noreferrer"
+                           href="src/components/footer/Footer"
                         >
                             my linkedin
                             <FontAwesomeIcon icon={faLinkedin} size={'3x'}/>
                         </a>
                     </div>
-                    <div className={'footer__link'}>
-                        <a target="_blank" rel="noreferrer"
+                    <div className="footer__link">
+                        <a target="_blank"
+                           rel="noreferrer"
                            href="https://github.com/oleg-lego-lego?tab=repositories"
                         >
                             my github

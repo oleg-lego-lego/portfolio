@@ -2,7 +2,7 @@ import React from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faSquareGithub} from "@fortawesome/free-brands-svg-icons/faSquareGithub";
 import {faArrowUpRightFromSquare} from "@fortawesome/free-solid-svg-icons";
-import {MyProjects} from "./projectArr";
+import {MyProjects} from "./projectArr/projectArr";
 
 type Project = {
     project: MyProjects
@@ -14,8 +14,8 @@ export const MyProject = (props: Project) => {
     return (
         <div className="pro pro__1 undefined">
             <div className="pro__img">
-                <a target="_blank" href={hrefVercel} rel="noreferrer" className={'hover-block'}>
-                    <img src={photo} alt="website" className={'image-hover-effect'}/>
+                <a target="_blank" href={hrefVercel} rel="noreferrer" className="hover-block">
+                    <img src={photo} alt="website" className="image-hover-effect"/>
                 </a>
             </div>
             <div className="pro__text">

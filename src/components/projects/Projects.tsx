@@ -1,11 +1,11 @@
 import React from 'react';
 import {MyProject} from "./MyProject";
-import {projects} from "./projectArr";
+import {projects} from "./projectArr/projectArr";
 
 
 export const Projects = () => {
     return (
-        <section id={"projects"} className={"project"}>
+        <section id={"projects"} className="project">
             <div className="container">
                 <div className="project-content">
                     <p>portfolio</p>
