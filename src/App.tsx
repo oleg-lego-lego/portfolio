@@ -5,7 +5,7 @@ import {Home} from "./components/home/Home";
 import {AboutMe} from "./components/aboutMe/AboutMe";
 import {Projects} from "./components/projects/Projects";
 import {Contact} from "./components/contact/Contact";
-import {Footer} from "./components/Footer";
+import {Footer} from "./components/footer/Footer";
 
 function App() {
     return (

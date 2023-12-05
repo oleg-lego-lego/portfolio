@@ -1,4 +1,4 @@
-import carRent from '../../images/autoRentProject.png'
+import carRent from '../../../images/projectPhoto/autoRentProject.png'
 
 export type MyProjects = {
     hrefGitHub: string
