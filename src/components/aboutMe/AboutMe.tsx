@@ -7,13 +7,11 @@ export const AboutMe = () => {
             <div className="container">
                 <div className="about-content">
                     <div className="img-side">
-                        <img src={working} alt="mee" className="img-side__main-img"/>
+                        <img src={working} alt="my work place" className="img-side__main-img"/>
                     </div>
                     <div className="text-side">
                         <h3>About me</h3>
-                        <h4>
-                            As a Junior Front-End Developer...
-                        </h4>
+                        <h4>Front-End Developer...</h4>
                         <p>
                             One of my strengths is my ability to write clean and optimized code. I understand the
                             importance of efficient coding practices and strive to deliver high-quality work that is not
