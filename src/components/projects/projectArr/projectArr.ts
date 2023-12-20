@@ -1,4 +1,5 @@
 import carRent from '../../../images/projectPhoto/autoRentProject.png'
+import todolist from '../../../images/projectPhoto/todolist.png'
 
 export type MyProjects = {
     hrefGitHub: string
@@ -21,5 +22,16 @@ export const projects: MyProjects[] = [
               Conveniently plan your trips quickly and easily.`,
         technologiesOne: 'React',
         technologiesTwo: 'Redux Toolkit',
+    },
+    {
+        hrefGitHub: 'https://github.com/oleg-lego-lego/todolist_for_the_lesson',
+        hrefVercel: 'https://todolist-two-gamma.vercel.app/',
+        photo: todolist,
+        title: 'todo list 📝',
+        text: `Welcome to our online task management service, where users can easily create their to-do lists.
+               Just add your tasks! Conveniently plan your tasks quickly and easily, 
+               always having control over your schedule.`,
+        technologiesOne: 'React',
+        technologiesTwo: 'Redux',
     },
 ]
