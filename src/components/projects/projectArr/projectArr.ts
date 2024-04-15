@@ -1,5 +1,6 @@
 import carRent from '../../../images/projectPhoto/autoRentProject.png'
 import todolist from '../../../images/projectPhoto/todolist.png'
+import tableSorting from '../../../images/projectPhoto/table-sorting.png'
 
 export type MyProjects = {
     hrefGitHub: string
@@ -33,5 +34,17 @@ export const projects: MyProjects[] = [
                always having control over your schedule.`,
         technologiesOne: 'React',
         technologiesTwo: 'Redux',
+    },
+    {
+        hrefGitHub: 'https://github.com/oleg-lego-lego/beer_List',
+        hrefVercel: 'https://table-sorting-ten.vercel.app/',
+        photo: tableSorting,
+        title: 'table sorting 🗄️',
+        text: `Welcome to our alcohol catalog! Here, you can easily find the perfect beverage 
+              using our available filters. You can sort products by name, alcohol strength, and country of origin. 
+              This way, you can quickly discover a drink that matches your preferences and mood. 
+              Dive into a world of diverse flavors and explore the intricacies of alcohol culture!`,
+        technologiesOne: 'Redux Toolkit',
+        technologiesTwo: 'Ant Design',
     },
 ]
