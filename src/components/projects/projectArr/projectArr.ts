@@ -1,6 +1,7 @@
 import carRent from '../../../images/projectPhoto/autoRentProject.png'
 import todolist from '../../../images/projectPhoto/todolist.png'
 import tableSorting from '../../../images/projectPhoto/table-sorting.png'
+import onlineStore from '../../../images/projectPhoto/online-store.png'
 
 export type MyProjects = {
     hrefGitHub: string
@@ -46,5 +47,16 @@ export const projects: MyProjects[] = [
               Dive into a world of diverse flavors and explore the intricacies of alcohol culture!`,
         technologiesOne: 'Redux Toolkit',
         technologiesTwo: 'Ant Design',
+    },
+    {
+        hrefGitHub: 'https://github.com/oleg-lego-lego/online_store',
+        hrefVercel: 'https://online-store-one-alpha.vercel.app/',
+        photo: onlineStore,
+        title: 'online store 💻',
+        text: `Welcome to our online home goods store! Find everything you need without the hassle 
+              – just use our filters for quick searching. We offer only the best options 
+              for your comfort and style!`,
+        technologiesOne: 'Redux',
+        technologiesTwo: 'Material Ui',
     },
 ]
