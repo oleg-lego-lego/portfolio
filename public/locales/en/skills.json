@@ -1,0 +1,12 @@
+{
+  "навыки": "skills",
+  "мой опыт": "my experience",
+  "Образование": "Education",
+  "айти курсы": "IT courses",
+  "incubatorText": "During the courses, I studied in depth and actively applied such technologies in projects, how React for developing dynamic user interfaces,  Redux for efficient application state management, TypeScript for adding static typing in JavaScript, as well as basic languages web development - HTML5 and CSS that determine the structure and style of web pages.",
+  "разработчик": "developer",
+  "Фриланс": "Freelancing",
+  "январь": "january",
+  "апрель": "april",
+  "freelancingText": "Application development using React and TypeScript. Managing state with Redux and using the REST API. Code refactoring, error correction. Experience with cross-browser, adaptive and responsive development, CSS preprocessors. Implementation of authorization, notifications, forms (Formik and Redux-form) using data streams."
+}
