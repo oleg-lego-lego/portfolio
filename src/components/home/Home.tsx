@@ -7,26 +7,30 @@ import react from '../../images/icons/react.svg'
 import scss from '../../images/icons/scss.svg'
 import TypeScript from '../../images/icons/TypeScript.png'
 import gitHub from '../../images/icons/gitHub.png'
+import arrow from '../../images/icons/rightarrow1_80967.svg'
 import {Icon} from "./Icon";
+import {useTranslation} from "react-i18next";
 
 export const Home = () => {
+    const {t} = useTranslation('home');
+
     return (
         <section id={"home"} className="hero">
             <div className="container">
                 <div className="content">
                     <div className="hero-main">
+
                         <div className="hero-text">
                             <h1>Front-End React Developer</h1>
                             <img src={Hand} alt="hand"/>
-                            <p>
-                                Hi, I'm oleg ostrovski. A passionate Front-end React Developer based in Minsk, Belarus.
-                                📍
-                            </p>
+                            <p>{t('myNameText')}</p>
                         </div>
+
                         <div className="hero-img"></div>
                     </div>
+
                     <div className="skills">
-                        <p>Tech Stack</p>
+                        <p>{t('Мои навыки')}</p>
                         <div>
                             <ul>
                                 <Icon icon={html} title={'html'} description={'html-icon'}/>
@@ -36,6 +40,12 @@ export const Home = () => {
                                 <Icon icon={react} title={'React'} description={'react-icon'}/>
                                 <Icon icon={TypeScript} title={'Type Script'} description={'TypeScript-icon'}/>
                                 <Icon icon={gitHub} title={'Git Hub'} description={'gitHub-icon'}/>
+
+                                <li className={'seeMore'}>
+                                    <a href={"#skill"}>
+                                        <img src={arrow} title={'see more'} alt={'arrow'}/>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
