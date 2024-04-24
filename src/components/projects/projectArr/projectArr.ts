@@ -13,7 +13,8 @@ export type MyProjects = {
     hrefVercel: string
 }
 
-export const projects: MyProjects[] = [
+
+export const duplicateProject: MyProjects[] = [
     {
         hrefGitHub: 'https://github.com/oleg-lego-lego/autoRent',
         hrefVercel: 'https://auto-rent-sooty.vercel.app/',
