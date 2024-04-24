@@ -10,12 +10,13 @@ export const Footer = () => {
                     <div className="footer__link">
                         <a target="_blank"
                            rel="noreferrer"
-                           href="src/components/footer/Footer"
+                           href="https://www.linkedin.com/in/oleg-ostrovski-10658024a/"
                         >
                             my linkedin
                             <FontAwesomeIcon icon={faLinkedin} size={'3x'}/>
                         </a>
                     </div>
+
                     <div className="footer__link">
                         <a target="_blank"
                            rel="noreferrer"
