@@ -18,18 +18,22 @@ export const MyProject = (props: Project) => {
                     <img src={photo} alt="website" className="image-hover-effect"/>
                 </a>
             </div>
+
             <div className="pro__text">
                 <h3>{title}</h3>
                 <p>{text}</p>
+
                 <div className="stack">
                     <p>{technologiesOne}</p>
                     <p>{technologiesTwo}</p>
                 </div>
+
                 <div className="links">
                     <a target="_blank" href={hrefGitHub} rel="noreferrer">
                         code
                         <FontAwesomeIcon icon={faSquareGithub} size={'2x'}/>
                     </a>
+
                     <a target="_blank" href={hrefVercel} rel="noreferrer">
                         Live Demo
                         <FontAwesomeIcon icon={faArrowUpRightFromSquare} size={'1x'}/>
