@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faBars, faXmark} from "@fortawesome/free-solid-svg-icons";
 import {NavigationLink} from "./NavigationLink";
+import {Language} from "../settings/Language";
 
 export const Navigation = () => {
     const [navbarOpen, setNavbarOpen] = useState(false)
@@ -22,8 +23,11 @@ export const Navigation = () => {
                 <a href={'#home'}>
                     <h3 className="logo">oleg.developer</h3>
                 </a>
+
                 <ul>
+                    <Language/>
                     <NavigationLink setNavbarOpen={setNavbarOpen} navbarOpen={navbarOpen}/>
+
                     <li>
                         <FontAwesomeIcon
                             icon={faBars}
@@ -44,6 +48,7 @@ export const Navigation = () => {
                         style={{display: "flex", fontSize: "4rem"}}
                     />
                 </span>
+
                 <ul>
                     <NavigationLink setNavbarOpen={setNavbarOpen} navbarOpen={navbarOpen}/>
                 </ul>
